@@ -32,6 +32,7 @@
 
         <Button
             android:id="@+id/btnLogout"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -39,11 +40,21 @@
             />
         <Button
             android:id="@+id/btnSaveData"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Save Data"
+            android:text="Save Data"/>
+
+        <Button
+            android:id="@+id/btnShowData"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Show Users Data"
             />
+
     </LinearLayout>
 
 

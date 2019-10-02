@@ -5,6 +5,9 @@ public class HandleDatabase {
     private String name;
     private String age;
 
+    public HandleDatabase() {
+    }
+
     public HandleDatabase(String name, String age) {
         this.name = name;
         this.age = age;
